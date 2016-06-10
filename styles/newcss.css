@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+/*header properties */
+#header {
+    background-color:aliceblue  ;  
+     height: 70px;
+     padding:20px;
+     }
+
+#header li{ 
+    list-style: none;
+    display:inline;
+   
+}
+
+#header li a{
+    text-align:right;
+      padding:0px 15px;
+}
+
+#header a:hover{
+    color:red;
+    text-decoration: underline;
+   }
+  
+    
+
+#header ul li strong{
+    margin-right: 300px;
+    color: green;
+    font-size: 30px;
+    height: 100px;
+}
+
+section{
+    width:1000px;
+    margin:10px;
+    float: left;
+    padding: 10px 20px;
+    height:500px;      
+}
+/*footer properties*/
+#footer {
+    background-color:indianred;
+    color:white;
+    clear:both;
+    padding:5px;
+    text-align: center;
+    bottom: 0px;
+    height: 70px;
+    position:absolute;
+    width:100%;
+    padding-top: 30px;
+   
+}
+h1{
+    color: black;
+}
+
+
+label {
+    width: 10em;
+    padding-right: 1em;
+    float: left;
+    font-size: 23px;
+    text-align: right;
+}
+
+#msg, #msg1 {
+        height: 8em;
+}
+input[type="text"] {  /* An attribute selector */
+    float: left;
+    width: 30em;
+    height: 2.5em;
+    margin-bottom: 30px;
+    border-color: #58ACFA;
+    border-width: 1.5px;
+    font-size: 15px;
+    }
+input[type="password"] {  /* An attribute selector */
+    float: left;
+    width: 30em;
+    height: 2.5em;
+    margin-bottom: 30px;
+    border-color: #58ACFA;
+    border-width: 1.5px;
+    font-size: 15px;
+    }
+input[type="submit"]
+{
+    color:white;
+    height: 3em;
+    width: 8em;
+    background-color: #58ACFA;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+br {
+    clear: left;
+}
+/*side navigation bar properties */
+nav
+{
+   margin: 50px 50px;
+   float:left;
+    
+        
+}
+nav.vertical{
+    
+    width:150px;
+    margin-right:50px;
+   
+        
+}
+nav.vertical > ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+   
+}
+nav.vertical > ul> li > a {
+ display: block;
+ clear: left;
+ width: 100%;
+ max-width:200px;
+ background-color: lightsteelblue;
+ padding: 10px;
+ border: 1px solid navy;
+ color: black;
+ font-size:20px;   
+ text-align: center;
+ height:30px;
+}
+#leftcontainer{
+    width:300px;
+    height:600px;
+    float:left; 
+}
+
+ 
+ a {
+    text-decoration: none;
+    }
+
+/*table properties*/    
+table{
+    border: solid 1px black;
+}   
+table td, th{
+        width:500px;
+        height:50px;
+        text-align: center;
+        vertical-align: middle;
+    }    
+    
+    
+tr.d0 td,th{
+    background-color:mediumturquoise;
+    color:black;
+    
+}
+tr.d1 td{
+    background-color: paleturquoise;
+    color:black;
+}
+/*buttons used */
+button.d0{
+    background-color: mediumturquoise;
+    width:70px;
+}
+button.d1{
+    background-color: paleturquoise;
+    width:70px;
+}
+button{
+    height:30px;
+    width:80px;
+}
+#selectbox{
+    text-indent: 350px;
+    top: 90%;
+    width: 500px;
+}
+
+#p{
+   text-indent: 250px;
+     
+}
+
+#sub{
+    position: absolute;
+    margin-left: 450px;
+}
+
+p,b{
+    font-size: 20px;
+    
+}
+
+fieldset{
+    border: 1px solid navy;
+    line-height: 30px;
+}
+
+.zoom{
+    zoom: 300%;
+}
+
+span{
+    display:block;
+    width:150px;
+    background-color:lavender;
+}
+#qwerty{
+    display:block;
+    width:250px;
+    background-color:lavender;
+}  
+
+input[type="file"]
+{
+    height: 3em;
+    margin-bottom: 10px; 
+}
+
+.c1{
+    font-style: italic;
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/assignment2">
+    <Resource name="jdbc/rep" auth="Container" 
+        driverClassName="com.mysql.jdbc.Driver" 
+        url="jdbc:mysql://127.11.1.130:3306/rep?autoReconnect=true"  
+        username = "admin7ZQxNvU" password = "Dpmyg8S6pxzp"
+        maxActive="100" maxIdle="30" maxWait="10000" 
+        logAbandoned="true" removeAbandoned="true" 
+        removeAbandonedTimeout="60" type="javax.sql.DataSource" />
+</Context>
+ 
